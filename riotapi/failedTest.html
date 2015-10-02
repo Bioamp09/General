@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Riot API</title>
+		<style>
+		</style>
+		<script>
+			var apiKey = "56e4a12d-bbdd-4572-9722-368d93494a51";
+			var summonerRequest = "https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Bioamp09?api_key=56e4a12d-bbdd-4572-9722-368d93494a51"	
+			
+			console.log("test");
+			function getSummonerName(summonerRequest){
+				var req = new XMLHttpRequest();
+				req.onreadystatechange = function(){
+					if(req.readystate == 4 && req.status == 200)
+					{
+						callback(req.responseText);
+					} 
+				}
+				req.open("GET", summonerRequest, true);
+				req.send(null);
+				//httpreq.open("GET", summonerRequest, false);
+				//httpreq.send(null);
+				//return Httpreq.responseText;
+			}
+
+			//var json_obj = JSON.parse(getSummonerName(summonerRequest));
+			var request = getSummonerName(summonerRequest);
+			console.dir(summonerRequest);
+			
+		</script>
+	</head>
+
+	<body>
+		<p>getSummonerName();</p>			
+	</body>
+
+</html>
