@@ -1,3 +1,4 @@
+#Charles Voege
 from twython import Twython, TwythonError
 import time
 import json
@@ -13,19 +14,25 @@ try:
 	with open('liners.txt', 'r+') as tweetfile:
 		buff = tweetfile.readlines()
 	with open('searchedItems.json', 'w') as f:
-		result = twitter.search(q='11 ounce steak in 3 minutes 30 secs', result_type = 'recent', count =1)
+		#result = twitter.search(q='11 ounce steak in 3 minutes 30 secs', result_type = 'recent', count =1)
+		result = twitter.search(q='@Im_Twig', count = 5)
 		json.dump(result, f, sort_keys = True, indent = 4)
 	
 #	print(twitter.search(q='Bioamp09', result_type = 'recent', count = 1))
 	
 	with open('searchedItems.json', 'r+') as f1:
 		info = json.load(f1)
-		print ("\n\n\n")
+	#	print ("\n\n\n")
 		print (info["statuses"][0]["id"])
 		idnum = info["statuses"][0]["id"]
 		status = "MUWifiAlertBot: Testing Protocols..."
-		twitter.update_status(status="Testing inherent protocols...", in_reply_to_status_id = info["statuses"][0]["id"])
-	
+		i = 0
+		#loops and updates the account information
+		while(i < 5):
+			twitter.update_status(status="@Im_Twig \nHello, I am WillFi Bott, I'ma twitterbot made by CJ to annoy you. I reply 5 times every 10 seconds. Reply number %i part 2" %i)#, in_reply_to_status_id = info["statuses"][0]["id"])
+			i += 1
+			time.sleep(10)
+
 	for line in buff[:]:
 		line = line.strip(r'\n') #Strips any empty line.
 		if len(line)<=140 and len(line)>0:

@@ -1,12 +1,12 @@
 {
+
     "search_metadata": {
-        "completed_in": 0.013, 
-        "count": 1, 
-        "max_id": 643922015305494528, 
-        "max_id_str": "643922015305494528", 
-        "next_results": "?max_id=643922015305494527&q=11%20ounce%20steak%20in%203%20minutes%2030%20secs&count=1&include_entities=1&result_type=recent", 
-        "query": "11+ounce+steak+in+3+minutes+30+secs", 
-        "refresh_url": "?since_id=643922015305494528&q=11%20ounce%20steak%20in%203%20minutes%2030%20secs&result_type=recent&include_entities=1", 
+        "completed_in": 0.016, 
+        "count": 5, 
+        "max_id": 643831402610356225, 
+        "max_id_str": "643831402610356225", 
+        "query": "%40Im_Twig", 
+        "refresh_url": "?since_id=643831402610356225&q=%40Im_Twig&include_entities=1", 
         "since_id": 0, 
         "since_id_str": "0"
     }, 
@@ -14,31 +14,34 @@
         {
             "contributors": null, 
             "coordinates": null, 
-            "created_at": "Tue Sep 15 22:59:06 +0000 2015", 
+            "created_at": "Tue Sep 15 16:59:02 +0000 2015", 
             "entities": {
-                "hashtags": [
-                    {
-                        "indices": [
-                            37, 
-                            44
-                        ], 
-                        "text": "ImFull"
-                    }
-                ], 
+                "hashtags": [], 
                 "symbols": [], 
                 "urls": [], 
-                "user_mentions": []
+                "user_mentions": [
+                    {
+                        "id": 179712754, 
+                        "id_str": "179712754", 
+                        "indices": [
+                            0, 
+                            8
+                        ], 
+                        "name": "Scott Everett", 
+                        "screen_name": "Im_Twig"
+                    }
+                ]
             }, 
-            "favorite_count": 1, 
+            "favorite_count": 0, 
             "favorited": false, 
             "geo": null, 
-            "id": 643922015305494528, 
-            "id_str": "643922015305494528", 
-            "in_reply_to_screen_name": null, 
-            "in_reply_to_status_id": null, 
-            "in_reply_to_status_id_str": null, 
-            "in_reply_to_user_id": null, 
-            "in_reply_to_user_id_str": null, 
+            "id": 643831402610356225, 
+            "id_str": "643831402610356225", 
+            "in_reply_to_screen_name": "Im_Twig", 
+            "in_reply_to_status_id": 643823325072990208, 
+            "in_reply_to_status_id_str": "643823325072990208", 
+            "in_reply_to_user_id": 179712754, 
+            "in_reply_to_user_id_str": "179712754", 
             "is_quote_status": false, 
             "lang": "en", 
             "metadata": {
@@ -48,51 +51,152 @@
             "place": null, 
             "retweet_count": 0, 
             "retweeted": false, 
-            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>", 
-            "text": "11 ounce steak in 3 minutes 30 secs. #ImFull", 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "@Im_Twig sure! What are we gonna be?", 
             "truncated": false, 
             "user": {
                 "contributors_enabled": false, 
-                "created_at": "Tue Aug 17 23:29:11 +0000 2010", 
+                "created_at": "Mon May 07 21:43:44 +0000 2012", 
                 "default_profile": false, 
                 "default_profile_image": false, 
-                "description": "electrician. hookah. ecigs. beer. beer. beer. oh and women :)", 
+                "description": "", 
                 "entities": {
                     "description": {
                         "urls": []
                     }
                 }, 
-                "favourites_count": 1481, 
+                "favourites_count": 2115, 
                 "follow_request_sent": false, 
-                "followers_count": 153, 
+                "followers_count": 227, 
                 "following": false, 
-                "friends_count": 230, 
+                "friends_count": 268, 
                 "geo_enabled": false, 
                 "has_extended_profile": false, 
-                "id": 179712754, 
-                "id_str": "179712754", 
+                "id": 573989932, 
+                "id_str": "573989932", 
                 "is_translation_enabled": false, 
                 "is_translator": false, 
                 "lang": "en", 
-                "listed_count": 3, 
-                "location": "St. Louis, MO", 
-                "name": "Scott Everett", 
+                "listed_count": 0, 
+                "location": "Edwardsville, IL ", 
+                "name": "Tayler Rujawitz", 
                 "notifications": false, 
-                "profile_background_color": "030303", 
-                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/443102432/4038.jpg", 
-                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/443102432/4038.jpg", 
+                "profile_background_color": "000000", 
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/546322087/Lighthouse.jpg", 
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/546322087/Lighthouse.jpg", 
+                "profile_background_tile": false, 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/573989932/1368052409", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/637436474917453824/3ojraXvT_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/637436474917453824/3ojraXvT_normal.jpg", 
+                "profile_link_color": "2708D4", 
+                "profile_sidebar_border_color": "EEEEEE", 
+                "profile_sidebar_fill_color": "F6F6F6", 
+                "profile_text_color": "333333", 
+                "profile_use_background_image": false, 
+                "protected": false, 
+                "screen_name": "taytayruji23", 
+                "statuses_count": 3929, 
+                "time_zone": "Central Time (US & Canada)", 
+                "url": null, 
+                "utc_offset": -18000, 
+                "verified": false
+            }
+        }, 
+        {
+            "contributors": null, 
+            "coordinates": null, 
+            "created_at": "Mon Sep 14 22:38:26 +0000 2015", 
+            "entities": {
+                "hashtags": [], 
+                "symbols": [], 
+                "urls": [], 
+                "user_mentions": [
+                    {
+                        "id": 179712754, 
+                        "id_str": "179712754", 
+                        "indices": [
+                            0, 
+                            8
+                        ], 
+                        "name": "Scott Everett", 
+                        "screen_name": "Im_Twig"
+                    }, 
+                    {
+                        "id": 320877334, 
+                        "id_str": "320877334", 
+                        "indices": [
+                            9, 
+                            25
+                        ], 
+                        "name": "CJ Voege", 
+                        "screen_name": "SeeJaySaurusRex"
+                    }
+                ]
+            }, 
+            "favorite_count": 0, 
+            "favorited": false, 
+            "geo": null, 
+            "id": 643554426184167425, 
+            "id_str": "643554426184167425", 
+            "in_reply_to_screen_name": "Im_Twig", 
+            "in_reply_to_status_id": 643550472364797953, 
+            "in_reply_to_status_id_str": "643550472364797953", 
+            "in_reply_to_user_id": 179712754, 
+            "in_reply_to_user_id_str": "179712754", 
+            "is_quote_status": false, 
+            "lang": "ht", 
+            "metadata": {
+                "iso_language_code": "ht", 
+                "result_type": "recent"
+            }, 
+            "place": null, 
+            "retweet_count": 0, 
+            "retweeted": false, 
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+            "text": "@Im_Twig @SeeJaySaurusRex ayyyyy lmao", 
+            "truncated": false, 
+            "user": {
+                "contributors_enabled": false, 
+                "created_at": "Thu Dec 02 20:34:13 +0000 2010", 
+                "default_profile": false, 
+                "default_profile_image": false, 
+                "description": "thug life? more like hug life. come here", 
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                }, 
+                "favourites_count": 4193, 
+                "follow_request_sent": false, 
+                "followers_count": 362, 
+                "following": false, 
+                "friends_count": 219, 
+                "geo_enabled": true, 
+                "has_extended_profile": true, 
+                "id": 222228309, 
+                "id_str": "222228309", 
+                "is_translation_enabled": false, 
+                "is_translator": false, 
+                "lang": "en", 
+                "listed_count": 1, 
+                "location": "St. Louis, MO ", 
+                "name": "Abby Barnhart", 
+                "notifications": false, 
+                "profile_background_color": "BADEDE", 
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000084565112/690f271d5d9ff26f17d04f91910ac658.jpeg", 
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000084565112/690f271d5d9ff26f17d04f91910ac658.jpeg", 
                 "profile_background_tile": true, 
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/179712754/1418110539", 
-                "profile_image_url": "http://pbs.twimg.com/profile_images/613796997963739136/Uj6O-cn2_normal.jpg", 
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/613796997963739136/Uj6O-cn2_normal.jpg", 
-                "profile_link_color": "030303", 
-                "profile_sidebar_border_color": "161510", 
-                "profile_sidebar_fill_color": "030303", 
-                "profile_text_color": "19C5FA", 
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/222228309/1437605910", 
+                "profile_image_url": "http://pbs.twimg.com/profile_images/640613506094469120/QWyS52Jn_normal.jpg", 
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/640613506094469120/QWyS52Jn_normal.jpg", 
+                "profile_link_color": "DD2E44", 
+                "profile_sidebar_border_color": "FFFFFF", 
+                "profile_sidebar_fill_color": "DDEEF6", 
+                "profile_text_color": "333333", 
                 "profile_use_background_image": true, 
                 "protected": false, 
-                "screen_name": "Im_Twig", 
-                "statuses_count": 4475, 
+                "screen_name": "itsabbybarnhart", 
+                "statuses_count": 3550, 
                 "time_zone": "Central Time (US & Canada)", 
                 "url": null, 
                 "utc_offset": -18000, 
