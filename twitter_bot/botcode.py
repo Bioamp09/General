@@ -1,3 +1,4 @@
+#Charles Voege
 from twython import Twython
 import json
 
@@ -21,9 +22,9 @@ def load():
 #saves the data and dumps it into our files
 def dump(queue, info):
 	with open("queue.json", 'w') as f:
-		json.dump(queue, f)
+		json.dump(queue, f, sort_keys = True, indent = 4)
 	with open("info.json", 'w') as fi:
-		json.dump(info, fi)
+		json.dump(info, fi, sort_keys = True, indent = 4)
 
 #our response function to respond to tweets
 def respond(twitter, top_tweet):
@@ -37,7 +38,8 @@ def main():
 	
 	#adds tweets to respond to into our queue
 	queue, info = load()
-
+	print(queue)
+	print(info)
 	triggers = ["Mizzou Wireless", "TigerWifi", "Tiger Wifi"]	
 	#returns a dictionary with 2 elements, 1 with metadata for what we are currently querying as the value and one with the list of tweets.
 	tweets = twitter.search(q=triggers, result_type = "recent", since_id = info["sinceid"], count = '100')
@@ -45,16 +47,18 @@ def main():
 	#stores the id of the most recent tweet that our search found and stores it into the dictionary, this way we don't keep adding the same tweet over and over again.
 	#This is stored in the info.json to be used with our query
 	info["sinceid"] = tweets["search_metadata"]["max_id"]
-	
+	print(tweets["search_metadata"]["max_id"])	
 	#the words that trigger our bot to respond'
 	#triggers = ("Mizzou Wirless", "TigerWifi", "Tiger Wifi");
 
 	#filters out tweets that have been retweeted
 	to_add = [tweet for tweet in tweets["statuses"] if not tweet["retweeted"] and not tweet.has_key("retweeted_status")]
 	to_add = [tweet for tweet in to_add if tweet["text"].startswith(triggers) or tweet["text"].split(" ",1)[1].startswith(triggers)]
-	
+	print(to_add)	
 	#adds tweets to the queue that have yet to be responded to.
 	queue = queue + to_add
+	print("This queue is ")
+	print(queue)
 	#this is our max number of tweets we will hold in the queue, we don't want to overfill our queue and run out of disk space on our machines
 	mx = max(len(to_add), 20)
 	if len(queue) > mx:
